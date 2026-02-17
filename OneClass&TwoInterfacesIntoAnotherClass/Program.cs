@@ -46,6 +46,16 @@ namespace OneClass_TwoInterfacesIntoAnotherClass
             nokiaAshaObj.endcall();
             nokiaAshaObj.sendmessage();
 
+            //=====================*******
+            //we can inherit hybrid inheritence into another child clas also...
+            //inheritence always inherit the members from baase to derived calss.
+            Sample samObj = new Sample();
+            samObj.Bluetooth();
+            samObj.endcall();
+            samObj.calling();
+            samObj.receiving();
+            samObj.Bluetooth();
+            samObj.print();
 
 
 

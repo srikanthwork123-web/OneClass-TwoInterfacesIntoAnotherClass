@@ -8,7 +8,7 @@ namespace OneClass_TwoInterfacesIntoAnotherClass
 {
     internal interface INokia1
     {
-        void calling();
+        void calling();//only method headingg,no bdy in interface methods
         void receiving();
         void endcall();
         void sendmessage();
